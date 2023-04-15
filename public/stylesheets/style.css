@@ -1,0 +1,85 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background: url("../images/background.png");
+  background-size: cover;
+}
+/* 标题格式 */
+.title{
+  text-align: center;
+  color: #48cfff;
+}
+
+.flex{
+  display: flex;
+}
+/* .low-box{
+  display: flex;
+} */
+
+.block {
+  background: rgba(25,118,210,0.3)
+  /* background: rgba(25,118,210,0.3);
+  background: white; */
+}
+
+.block-img{
+  padding:10px 0;
+  /* 令图片居中 */
+  display:block; 
+  margin:auto;
+  
+}
+/* 内容格式 */
+.content{
+  text-align: center;
+}
+
+.text{
+  margin: 40px 10px;
+  font-size: 2em;
+}
+/* 不换行 */
+.text p{
+  display: inline;
+}
+
+.up-box{
+  /* style="width: 450px;height:330px;background-color: rgba(25,118,210,0.3);"  */
+  /* margin: 10px 10px; */
+  width: 500px;
+  height:330px;
+  /* background-color: rgba(25,118,210,0.3); */
+  margin: 10px 40px;
+}
+.instrument{
+  width: 100%;
+  height: 100%;
+  object-fit:cover; 
+}
+.low-box{
+  width: 500px;
+  height:330px;
+  background-color: rgba(25,118,210,0.3);
+  margin: 10px 40px;
+  display: flex;
+}
+.left-box{
+  width: 200px;
+  height:300px;
+  background-color: rgba(25,118,210,0.3);
+  margin: 10px 10px;
+}
+.right-box{
+  width: 300px;
+  height:300px;
+  background-color: rgba(25,118,210,0.3);
+  margin: 10px 10px;
+}
+.dignoise{
+  font-size: 2em;
+  color: white;
+}
